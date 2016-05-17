@@ -9,6 +9,6 @@ def factorial(n)
   Array(1..n).inject(:*)
 end
 
-p factorial(5)
-p factorial(8)
-p factorial(10)
+p factorial(5) # 120
+p factorial(8) # 40320
+p factorial(10) # 3628800

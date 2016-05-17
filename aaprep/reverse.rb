@@ -16,5 +16,5 @@ def reverse(string)
   reverse_str.join
 end
 
-p reverse("Hello")
-p reverse("What is your name?")
+p reverse("Hello") # "olleH"
+p reverse("What is your name?") # "?eman ruoy si tahW"
