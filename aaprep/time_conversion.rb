@@ -14,7 +14,7 @@ def time_conversion(minutes)
       counter -= 60
     end
   end
-  minutes = minutes.to_s + '0'  if minutes == 0
+  minutes = '0' + minutes.to_s  if minutes < 10
   return hours.to_s + ":" + minutes.to_s
 end
 
